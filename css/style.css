@@ -1,0 +1,70 @@
+* {
+	box-sizing: border-box;
+}
+.header{
+	height: 100vh;
+	background: url('../img/image-1.jpg');
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0px 100px;
+}
+.header .btn-start{
+	padding: 10px;
+	text-align: center;
+	background-color: #c43826;
+	border-radius: 4px;
+	color: #fff;
+	text-decoration: none;
+	width: 10%;
+}
+.header .title{
+	font-size: 70px;
+}
+[class*="-section"] {
+	padding: 50px 0px;
+	color: #fff;
+}
+.about-section{
+	background: #222;
+}
+.interface-section{
+	background: #000;
+}
+.about-me-section{
+	background: #222;
+}
+.about-me-section img {
+	width: 100%;
+}
+.interface-section img {
+	width: 100%;
+	margin-bottom: 10px;
+}
+.divider {
+	width: 100px;
+	background-color: #c43826;
+	height: 2px;
+	margin-left: 0;
+}
+
+.image {
+	text-align: center;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	padding: 20px 0px;
+	background: #000;
+	color: #aaa;
+}
+.footer .copy {
+	margin-right: 3px;
+}
+.footer a {
+	color: #aaa;
+	text-decoration: none;
+}
